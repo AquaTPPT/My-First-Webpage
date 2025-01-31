@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+
+    <link rel="stylesheet" href="../style/general style.css">
+
+    <link rel="icon" href="../assets/favicon_book.ico">
+    
+    <title>January 14th, 2025</title>
+
+</head>
+
+<body>
+
+    <h1> January 14<sup>th</sup>, 2025</h1>
+
+    <p> I can now style tables! Well, just the basics. I can make tables looking just like wikipedia's though! 
+        <br> Out of genuine curiosity, I tried looking into the Wikipedia style and the CSS files, and Jesus Christ, there's so many of them... 
+        <br> I don't know if this kind of thing is a good way of making these sorts of styles, but instead of placing them as inline, they always set CSS files (I assume, since I can't see them) separate for each kind of element. I'm guessing it's so they have more control over the kind of formatting that they want to implement, but I don't really know... yet. Everything in it's time, I suppose.</p>
+
+    <p> I have also learned how to make lists, both unordered and ordered! 
+        <br> I have updated every link to include the unordered list. Well, maybe not every single one, just the <q>back to the main page</q> links. 
+        <br> Also changed the Favicon to the blog posts, I just think it looks better with a little book as an icon. But boy, was it not a pain in the butt to change this into a .ico folder without a background. 
+        <br> Oh, the font is different too! I have been playing a lot of Katamari and I love the text font that is used. So I looked it up, downloaded it, and set it up into my website! 
+        <br> However, I might as well just mention how to do this, since it was pretty confusing and hard to figure out.
+
+        <dl>
+          <style>
+
+                li, dt {
+
+                    font-size:20px;
+
+                    margin:10px;
+
+                }
+
+                dd {
+
+                    font-size:15px;
+                    
+                }
+           </style>
+        
+             <ol>
+
+              <li> <dt> <b>Obtain the font that you want</b></dt> 
+
+               <dd> Can be in a .otf or .ttf format (this should go wihout saying, but if what it's being made is for any kind of website, make sure you have the rights to use the font!!!) ; </dd> </li>
+            
+              <li> <dt> <b>Convert it into a webfont kit </b> </dt>
+
+               <dd> There are websites that create webfont kits over a .otf or .ttf file, The one I used is right <a href="https://www.fontsquirrel.com/tools/webfont-generator" alt="here" target="_blank">here</a></dd></li>
+            
+              <li> <dt> <b> Upload it into the website </b> </dt> </li>
+            
+               <dd> This is very important, since this font that you are trying to use isn't in the HTML <q>database</q>(?), your font has to come from somewhere that the browser can pick up;</dd>
+
+              <li> <dt> <b> update your CSS file </b> </dt> </li>
+
+               <dd> Now you just have to update the CSS file with a couple things (update the links to your own custom font links):
+
+                <p style="color: greenyellow">
+                
+                    <br> @font-face { <br>
+                    font-family: "CustomFont"; <br>
+                    src: url("https://yoursite.com/css/fonts/CustomFont.eot"); <br>
+                    src: url("https://yoursite.com/css/fonts/CustomFont.woff") format("woff"), <br>
+                    url("https://yoursite.com/css/fonts/CustomFont.otf") format("opentype"), <br>
+                    url("https://yoursite.com/css/fonts/CustomFont.svg#filename") format("svg"); <br>
+                    }</p> </dd>
+
+            </ol>
+        
+        </dl>
+    
+        <br>
+        After this, you're pretty much ready to go! just update all the font names to the URL where your font's at and it should work! Hope this helps anyone.
+    </p>
+
+    <hr>
+
+    <p> There's not much else to write on today. it was mostly a slow day, since there wasn't any work scheduled. 
+        <br> I ate sushi though, very cool. There's this weird place that mixes sushi with mexican food that is really, really good! 
+        <br> Now that I think about it, it wouldn't be a bad idea to make a food review blog. I have eaten out at so many different restaurants in my lifetime, had so many different experiences that I would love to share! But I'll think about that once I complete my courses and stuff, by then I'll have a proper website and a domain and everything.</p>
+
+    <p> These pages have become only pieces of text. 
+        <br>To be honest, I don't mind it very much, since I know I'm learning things and decided to showcase and practice what I'm learning in more subtle ways. 
+        <br> If it makes them look boring, I'm sorry for that, although since this is more a place to drop most of my thoughts and happenings in a more anonymous way than a social media would be, I suppose that's also something that would kind of be expected. </p>
+
+    <ul>
+
+    </ul>
+</body>
+</html>
