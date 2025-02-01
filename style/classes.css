@@ -1,3 +1,5 @@
+
+
 .head {
 
     font: size 200px;
@@ -10,32 +12,29 @@
 
 }
 
-.content {
+.content, .content2 {
 
-    
     border: 3px solid rgb(36, 166, 170);
-
-    background-color:rgb(37, 37, 37);
-
-    padding: 40px;
 
     margin: 40px;
 
+    padding: 40px;
+
     font-size: 20px;
+    
+}
+
+.content {
+
+    background-color:rgb(37, 37, 37);
 
 }
 
 .content2 {
 
 
-    border: 3px solid rgb(36, 166, 170);
-
     background-color:rgb(112, 112, 112);
 
-    margin: 40px;
 
-    padding: 40px;
-
-    font-size: 20px;
 }
 
