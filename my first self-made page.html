@@ -4,11 +4,12 @@
 
 <head>
 
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style/general-style.css">
+    <link rel="stylesheet" href="./style/general style.css">
+    <link rel="stylesheet" href="./style/btn.css">
     <link rel="stylesheet" href="./style/classes.css">
-    <link rel="icon" href="../assets/favicon_book.ico">
+    
+    <link rel="icon" href="./assets/favicon_book.ico">
+
     <meta name="viewport" content="width=devide-width, initial scale=1.0">
 
 </head>    
@@ -127,12 +128,29 @@
 
 </div>
 
-<div class="content2" style="width:fit-content; height:fit-content; margin: auto">
+<div class="windows-95-window">
 
-    <div>
+    <div class="window-header" >
+        <div style="height:32px;">
+        <nav class="navbar">
+            <ul class="navbar">
+                <li><img width="25px" height="25px" style="margin-top:2px;" src="./assets/Chat.ico" alt="notepad"> </li>
+                <li><p class="windows-95-header-text" style="width:123px;"> Blog Entries</p></li>
+                <ul class="navbar">
+                <li><button class="btn mr-2 mb-2 btn-primary border-dark">_</button></li>
+                    <li><button class="btn mr-2 mb-2 btn-primary border-dark">□</button></li>
+                    <li><button class="btn mr-2 mb-2 btn-primary border-dark"><b>×</b></button></li>
+                </ul>
+            </ul>
 
-    <iframe name="iframe_blog" title="Blog Entries"> Blog Entries </iframe>
-</div>
+
+        </nav>
+        </div>
+    </div>
+    <div class="window-top"></div>
+
+    <iframe class="windows-95-frame" name="iframe_blog" title="Blog Entries"> Blog Entries </iframe>
+
 </div>
 </body>
 
